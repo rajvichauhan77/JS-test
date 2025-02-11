@@ -7,7 +7,7 @@ function getmarks(ele){
     let card = document.getElementById("card")
     card.innerHTML = `
 
-     <div class="card-body">
+     <div class="card-body ">
               <h5 class="card-title">Score board</h5>
               <p class="card-text"><h5>Name : </h5>${ele.firstname}</p>
               <p class="card-text"><h5>Email : </h5>${ele.email}</p>
